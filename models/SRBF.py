@@ -144,7 +144,6 @@ class SRBF(nn.Module):
         self.update_model(np.array(centers), 0)
 
         new_sigma = np.mean(np.array(new_sigma))
-        print(new_sigma)
 
         if dataset == "mnist":
             self.sigma1 = nn.Parameter(torch.ones(10).to(device=training_device)*new_sigma*0.1)
