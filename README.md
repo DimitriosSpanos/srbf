@@ -1,10 +1,13 @@
 # Leveraging Subclass Learning for Improving Uncertainty Estimation in Deep Learning
-In this repository we show models of the proposed method using subclass learning to improve uncertainty estimation, as described in our paper, which are capable of increasing the AUROC metric that describes the capability of a model to estimate uncertainty and reject out of domain samples.
+To reproduce the results reported in our paper (e.g. for MNIST):
 
-Download tiny-imagenet dataset and the "tiny_imagenet.pth" from https://drive.google.com/file/d/141_bHobWPR2abbd5QP5Epa_pkSJqOvMk/view?usp=sharing
-and run:
-  ```bash
-   python3 show_models.py
+Run:
+```bash
+  python3 train_AE.py --dataset mnist
+```
+And then:
+```bash
+  python3 train_SRBF.py --dataset mnist --opt sgd --sgd-lr 5e-2 --num-epochs 30 --gamma 0.999 --cs 64 --subclass 1 --AE-pretrained
 ```
 Full code of the implementation is being prepared and will be available soon.
 
