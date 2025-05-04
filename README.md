@@ -13,6 +13,6 @@ And then:
 
 ## Acknowledgments
 
-The work presented here is supported by the RoboSAPIENS project funded by the European Commission’s Horizon Europe programme under grant agreement number 101133807. This publication reflects the authors’ views only. The European Commission is not responsible for any use that may be made of the information it contains.
+This work has received partial funding from the Hellenic Foundation for Research & Innovation (H.F.R.I.) scholarship under grant agreement No 20490 (Deep Learning Methodologies for Trustworthy Intelligent Systems) and the research project ”Robotic Safe Adaptation In Unprecedented Situations (RoboSAPIENS)”, which is implemented in the framework of Horizon Europe 2021-2027 research and innovation programme under grant agreement No 101133807. This publication reflects the authors’ views only. The European Commission are not responsible for any use that may be made of the information it contains.
 
 Learn more about [RoboSAPIENS](https://robosapiens-eu.tech/).
